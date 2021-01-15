@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 /*
 	接口
 	1.概念：方法描述的集合，仅是方法描述
@@ -14,5 +16,23 @@ package main
 
 type Action interface {
 	run()
+	eat()
+}
+
+type Person1 struct {
+	name string
+}
+
+func (p *Person1) eat(food string) {
+	fmt.Println(fmt.Sprintln(p.name, "is eating", food))
+}
+
+func (p *Person1) run() {
+	fmt.Println(p.name, "is running.")
+}
+
+func main() {
+	p1 := Person1{name: "zimsky"}
+
 }
 
