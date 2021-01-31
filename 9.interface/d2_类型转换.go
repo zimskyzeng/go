@@ -9,6 +9,7 @@ import "fmt"
 			a. instance，ok:=接口对象.(实际类型)
 			b. 使用switch case语句
 		struct --> 接口类型 正向转换，不需要手动实现
+			在接口中只能使用实例方法，不能使用实例属性
  */
 
 type Do interface {
