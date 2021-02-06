@@ -33,8 +33,8 @@ func main() {
 	select {
 	case data := <-ch1:  // 此时还不能执行
 		fmt.Println("ch1 data:", data)
-	case data := <-ch2:  // 此时还不能执行
-		fmt.Println("ch2 data:", data)
+	case <-ch2:  // 此时还不能执行
+		fmt.Println("ch2 data:", "data")
 	default:  // 默认走default
 		fmt.Println("default")
 	}

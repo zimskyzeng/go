@@ -51,8 +51,8 @@ func main() {
 	// 8.休眠
 	time.Sleep(1 * time.Second)
 
-	// 9.计时器
-	// 原理分析：
+	// 9.计时器1
+	// 原理分析：本质上就是过一段时间向返回的管道中入定时后的时间Time
 	/*
 		func NewTimer(d Duration) *Timer {
 			c := make(chan Time, 1)
@@ -73,4 +73,10 @@ func main() {
 	fmt.Printf("类型：%T\n", timer1)
 	t6 := <-timer1.C
 	fmt.Println(t6)
+
+	// 9.计时器2
+	ch := time.After(3* time.Second)  // 返回的就是 NewTimer(d).C
+	fmt.Println("time2", time.Now())
+	timer2 := <- ch
+	fmt.Println(timer2)
 }
