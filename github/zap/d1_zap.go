@@ -6,11 +6,12 @@ import (
 
 /*
 	zap是高性能、支持结构化数据、可分日志级别的包
+	如果需要使用一些个性化的配置，比方说将日志写入到文件中、切割日志文件大小 需要用到go.uber.org/zap/zapcore
  */
 
 func main(){
 	logger, _ := zap.NewProduction()
-	defer logger.Sync()  // 用来刷新缓存
+	defer logger.Sync()  // 用来刷新缓存，一定要有这个
 
 	// 用法1 生成Sugar来使用
 	sugar := logger.Sugar()

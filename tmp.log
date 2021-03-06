@@ -1,0 +1,3 @@
+{"level":"DEBUG","ts":"2021-03-06T20:12:08.192+0800","caller":"zap/d2_zap.go:25","msg":"CustErr","err":"errMsg"}
+{"level":"ERROR","ts":"2021-03-06T20:24:48.127+0800","msg":"CustErr","err":"errors"}
+{"level":"ERROR","ts":"2021-03-06T20:31:15.290+0800","caller":"zap/d3_lumberjack.go:19","msg":"CustErr","err":"errors"}
