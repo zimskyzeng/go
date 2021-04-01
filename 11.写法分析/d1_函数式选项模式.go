@@ -1,4 +1,11 @@
-package _1_写法分析
+package main
+
+import "fmt"
+
+/*
+	函数式选项配置模式
+	用来既可以使用默认的配置，又可以让用户自动定义某些配置
+ */
 
 type IdCard struct {
 	name string
@@ -33,9 +40,28 @@ func ChangeAddr (addr string) Option {
 	}
 }
 
+// 默认配置
+var defaultID = IdCard{
+	name: "zimsky",
+	age:  20,
+	addr: "shenzhen",
+}
+
 // 设置属性的调用
-func (p *Person) InitPerson (opts ...Option) {
+func NewPerson (opts ...Option) *Person {
+	p := Person{
+		defaultID,
+	}
 	for _, o := range opts {
 		o(&p.IdCard)
 	}
+	return &p
+}
+
+func main(){
+	p1 := NewPerson()
+	fmt.Println("Default:", p1)
+
+	p2 := NewPerson(ChangeAddr("beijing"), ChangeAge(30))
+	fmt.Println("New", p2)
 }
