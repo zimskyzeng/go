@@ -1,0 +1,11 @@
+---
+name: steve
+hobbies:
+    - skateboarding
+    - snowboarding
+    - go
+clothing:
+    jacket: leather
+    trousers: denim
+age: 35
+eyes : brown

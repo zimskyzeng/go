@@ -17,7 +17,7 @@ import "fmt"
 		cap(slice) 切片的容量 容量大于等于长度
 		append(slice, element)  追加元素
 		append(slice, slice...)  追加slice
-		copy(old, new)  将new中的元素拷贝到old中
+		copy(new, old)  将old中的元素拷贝到new中，这里需要注意new必须要有足够才行
 	4.特点
 		变长容器，当超过容量时会自动扩容(成倍增长)
 */
