@@ -10,7 +10,7 @@ import (
 	将日志输出到文件中并且自动切割
 */
 
-func main(){
+func main3(){
 	encoder := GetEncoder()
 	writeSync := GetWriteSync()
 	core := zapcore.NewCore(encoder, writeSync, zap.DebugLevel)

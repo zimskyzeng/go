@@ -6,7 +6,7 @@ import "fmt"
 slice是引用类型变量
 */
 
-func main() {
+func main5() {
 	// 方式1
 	// 通过make创建新的slice然后赋值
 	s1 := []int64{1, 2, 3, 4, 5, 6}

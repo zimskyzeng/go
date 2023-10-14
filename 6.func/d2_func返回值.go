@@ -8,7 +8,7 @@ import "fmt"
 	2.函数定义时的返回值可以仅写类型
 */
 
-func main() {
+func main2() {
 	fmt.Println(getSize1(1, 2))
 	fmt.Println(getSize2(1, 2))
 }

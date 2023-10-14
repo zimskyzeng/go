@@ -15,7 +15,7 @@ func Init(){
 	flag.IntVar(&cliFlag, "flagName", 20, "demo")
 }
 
-func main(){
+func main11(){
 	Init()
 
 	// 根据命令行的参数进行解析，若解析异常会返回help提示

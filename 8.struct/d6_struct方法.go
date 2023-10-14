@@ -23,7 +23,7 @@ func (p *Person6) changeAge(age string) {
 	p.age = age
 }
 
-func main() {
+func main6() {
 	// 以值实例的方式调用方法
 	p1 := new(Person6)
 	p1.name = "zim"

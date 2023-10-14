@@ -12,7 +12,7 @@ func modify(p *int) {
 	*p += 10
 }
 
-func main() {
+func main2() {
 	i := 1
 	modify(&i)
 	fmt.Println("i:", i)

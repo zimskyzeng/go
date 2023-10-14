@@ -11,7 +11,7 @@ import (
 	结论：尽量使用range来遍历字符串
  */
 
-func main() {
+func main2() {
 	s1 := "zimskyzeng"
 	s2 := "hello世界"
 

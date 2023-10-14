@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func main(){
+func main7(){
 	//var s1 string
 	//// 方式1
 	//// 使用Scanln来读取键盘输入，不推荐，因为没法读取空格后面的内容

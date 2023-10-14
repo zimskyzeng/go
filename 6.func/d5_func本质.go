@@ -11,7 +11,7 @@ func fun1(name string) {
 	fmt.Println("name:", name)
 }
 
-func main() {
+func main5() {
 	// 函数有对应的类型
 	fmt.Printf("类型：%T\n", fun1) // func(string)
 

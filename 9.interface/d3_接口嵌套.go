@@ -41,7 +41,7 @@ func ipRun(a All3, s string){
 	a.run(s)
 }
 
-func main(){
+func main3(){
 	p3 := new(Person3)
 	p3.name = "zimsky"
 

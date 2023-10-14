@@ -17,7 +17,7 @@ import (
 	每当在常量组中定义一个常量，计数器加1，直到下一个const出现清零
 */
 
-func main() {
+func main3() {
 	// 定义方式
 	const PATH string = "/usr/local/bin/"
 	const PI = 3.14

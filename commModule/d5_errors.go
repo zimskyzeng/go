@@ -35,7 +35,7 @@ func checkNum(n int) error {
 	return nil
 }
 
-func main() {
+func main5() {
 	// 方式1
 	err := errors.New("an error")
 	fmt.Println(err.Error())

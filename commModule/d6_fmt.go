@@ -7,7 +7,7 @@ import "fmt"
 
  */
 
-func main(){
+func main6(){
 	// 输出相关方法
 	fmt.Println("输出普通字符串（带换行）")
 	fmt.Print("输出普通字符串（不带换行）")

@@ -44,7 +44,7 @@ func fun5(){
 	fmt.Println("fun5")
 }
 
-func main(){
+func main9(){
 	fmt.Println(fun2(20))
 
 	fun3()

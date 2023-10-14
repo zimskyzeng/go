@@ -11,7 +11,7 @@ func fun(m map[string]string) {
 	fmt.Printf("值：%v, 地址：%p\n", m, m)
 }
 
-func main() {
+func main2() {
 	m := make(map[string]string)
 	m["name"] = "zimsky"
 	m["addr"] = "shenzhen"

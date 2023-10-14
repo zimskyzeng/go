@@ -22,7 +22,7 @@ type Student2 struct {
 	school *School
 }
 
-func main() {
+func main4() {
 	school := School{
 		name: "学校A",
 		addr: "南京",

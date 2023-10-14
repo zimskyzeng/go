@@ -31,7 +31,7 @@ func getPerson1() *Person2 {
 	return new(Person2)
 }
 
-func main() {
+func main2() {
 	// 结构体的值或指针作为参数传递的区别
 	p1 := Person2{}
 	fmt.Printf("p1 值：%+v, 地址：%p\n", p1, &p1)

@@ -7,7 +7,7 @@ import "fmt"
 	特点：通常只能调用1次，定义时直接调用
 */
 
-func main() {
+func main6() {
 	// 定义了一个匿名函数并自动执行
 	func(name string) {
 		fmt.Println("Name:", name)

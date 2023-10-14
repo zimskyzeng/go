@@ -19,7 +19,7 @@ import "fmt"
 		指针变量一般用p开头
 */
 
-func main() {
+func main1() {
 	// 创建方法1
 	var p1 *int
 	i1 := 10

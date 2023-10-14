@@ -18,7 +18,7 @@ string
 		string.Join()  join操作
  */
 
-func main() {
+func main1() {
 	s := "zimskyzeng"
 	fmt.Println(s, len(s))
 }

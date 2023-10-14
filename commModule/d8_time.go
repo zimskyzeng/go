@@ -9,7 +9,7 @@ import (
 	time包 主要用来处理时间相关
 */
 
-func main() {
+func main8() {
 	t1 := time.Now()                                      // 获取当前时间的时间对象
 	t2 := time.Date(2020, 3, 2, 11, 20, 0, 0, time.Local) // 获取指定时间
 

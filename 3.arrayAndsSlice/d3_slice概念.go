@@ -22,7 +22,7 @@ import "fmt"
 		变长容器，当超过容量时会自动扩容(成倍增长)
 */
 
-func main() {
+func main3() {
 	var s1 []int64
 	fmt.Printf("类型: %T, 值：%v, 地址：%p\n", s1, s1, s1)  // 此时s1指向的地址为nil
 

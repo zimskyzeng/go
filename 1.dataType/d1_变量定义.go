@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main1() {
 	/*变量的定义
 	a.Go是静态语言，变量的类型和赋值必须一致；
 	b.同一个作用域内变量名不能冲突；

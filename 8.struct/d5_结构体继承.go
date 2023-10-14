@@ -20,7 +20,7 @@ type Student5 struct {
 	school string
 }
 
-func main() {
+func main5() {
 	// 子类的实例化1
 	s1 := Student5{
 		Person5: Person5{

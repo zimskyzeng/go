@@ -55,7 +55,7 @@ func checkInstance2(d Do){
 }
 
 
-func main(){
+func main2(){
 	p2 := new(Person2)
 	p2.name = "zimsky"
 

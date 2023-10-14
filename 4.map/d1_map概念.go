@@ -22,7 +22,7 @@ map
 		delete(map, key) 删除key
  */
 
-func main(){
+func main1(){
 	// 创建方式1
 	var m1 map[string]string
 	fmt.Printf("类型：%T, 值: %v, 地址：%p\n", m1, m1, m1)  // 可以看到存储的地址为nil

@@ -10,7 +10,7 @@ import "fmt"
 		实例变量 := struct { 字段定义 } { 字段赋值 }
 */
 
-func main() {
+func main3() {
 	s1 := struct {
 		name string
 		age  int

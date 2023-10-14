@@ -5,7 +5,7 @@ import (
 	"reflect"
 )
 
-func main(){
+func main10(){
 	u10 := User10{
 		Name: "zimsky",
 		Age:  10,

@@ -13,7 +13,7 @@ import (
 		make(chan 类型, 缓冲区大小)
  */
 
-func main(){
+func main3(){
 	ch1 := make(chan int, 3)
 	go func(ch chan int) {
 		for i:=0;i<10;i++{

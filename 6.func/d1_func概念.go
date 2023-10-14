@@ -14,7 +14,7 @@ import "fmt"
 		如果函数没有返回值，也可以使用return中止函数执行
  */
 
-func main(){
+func main1(){
 	fmt.Println(getSum(100))
 }
 

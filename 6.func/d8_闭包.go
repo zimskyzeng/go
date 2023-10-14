@@ -14,7 +14,7 @@ func outer(k int, b int) func(int) int {
 	return line
 }
 
-func main(){
+func main8(){
 	fun1 := outer(1, 1)
 	fmt.Println(fun1(10))  // 11
 	fmt.Println(fun1(20))  // 21

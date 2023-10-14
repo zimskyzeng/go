@@ -55,7 +55,7 @@ func exec(act Action) {
 	act.run()
 }
 
-func main() {
+func main1() {
 	p1 := Person1{name: "zimsky"}
 	u1 := User1{
 		name: "zeng",

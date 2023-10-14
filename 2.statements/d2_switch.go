@@ -11,7 +11,7 @@ import "fmt"
 	5、若switch后面的变量省略，相当于true
  */
 
-func main(){
+func main2(){
 	a := 1
 	switch a {
 	case 3:

@@ -5,7 +5,7 @@ import (
 	"runtime"
 )
 
-func main(){
+func main9(){
 	// 打印CPU核数
 	fmt.Println(runtime.NumCPU())
 }

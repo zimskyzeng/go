@@ -23,7 +23,7 @@ func subtract(a int, b int) int {
 	return a - b
 }
 
-func main() {
+func main7() {
 	fmt.Println(exec(20, 10, add))
 	fmt.Println(exec(20, 10, subtract))
 }

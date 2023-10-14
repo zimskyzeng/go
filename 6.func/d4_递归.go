@@ -16,6 +16,6 @@ func fibe(n int) int {
 	}
 }
 
-func main(){
+func main4(){
 	fmt.Println(fibe(5))
 }

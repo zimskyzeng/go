@@ -10,7 +10,7 @@ import "fmt"
 	定义：单个字符，使用单引号包裹，值类型为int32
 */
 
-func main() {
+func main4() {
 	// 默认零值为空字符串
 	var s1 string
 	fmt.Println("s1:", s1)

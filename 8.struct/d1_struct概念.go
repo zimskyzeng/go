@@ -23,7 +23,7 @@ import "fmt"
 
 type Person1 struct { name string; age int}
 
-func main(){
+func main1(){
 	// 创建方法12
 	p1 := Person1{name:"zimsky",age:20}
 	p2 := Person1{}

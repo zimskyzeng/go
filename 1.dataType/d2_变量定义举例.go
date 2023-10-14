@@ -5,7 +5,7 @@ import "fmt"
 // 定义全局变量
 var a = 100
 
-func main(){
+func main2(){
 	// 定义局部变量
 	b := 200
 

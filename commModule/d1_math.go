@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-func main(){
+func main1(){
 	// Abs 求绝对值
 	fmt.Println(math.Abs(-10))
 

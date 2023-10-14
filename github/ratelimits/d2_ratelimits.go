@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func main() {
+func main2() {
 	bucket := ratelimit.NewBucketWithRate(1, 5)
 
 	ticker := time.NewTicker(time.Millisecond * 500)

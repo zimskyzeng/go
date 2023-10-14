@@ -9,7 +9,7 @@ import (
 	互斥锁：用于保护并发修改数据的安全性
  */
 
-func main(){
+func main7(){
 	//noMutex1()  // 数据不等于20000
 	useMutex1()  // 数据等于20000
 }

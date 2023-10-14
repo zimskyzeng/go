@@ -6,7 +6,7 @@ import "fmt"
 	参考d2，这里提到的更新字符串依然会出现 byte和rune的问题
  */
 
-func main(){
+func main3(){
 	s1 := "zimskyzeng"
 	s2 := "hello世界"
 

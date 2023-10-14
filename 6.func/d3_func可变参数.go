@@ -11,7 +11,7 @@ import "fmt"
 	2.一个函数的参数列表中，至多1个可变参数
  */
 
-func main(){
+func main3(){
 	myAdd(1,2,3,4,5)
 }
 

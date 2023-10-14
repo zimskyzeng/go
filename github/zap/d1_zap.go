@@ -9,7 +9,7 @@ import (
 	如果需要使用一些个性化的配置，比方说将日志写入到文件中、切割日志文件大小 需要用到go.uber.org/zap/zapcore
  */
 
-func main(){
+func main1(){
 	logger, _ := zap.NewProduction()
 	defer logger.Sync()  // 用来刷新缓存，一定要有这个
 

@@ -19,7 +19,7 @@ import (
 	2.子goroutine由用户创建并启动，执行对应的函数
  */
 
-func main(){
+func main1(){
 	fmt.Println("Program start...")
 	go func() {
 		for i:=0;i<5;i++{

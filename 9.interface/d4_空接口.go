@@ -28,7 +28,7 @@ func checkInstance4 (n N) {
 	}
 }
 
-func main(){
+func main4(){
 	p4 := new(Person4)
 	c4 := new(Cat4)
 	d4 := new(Dog4)

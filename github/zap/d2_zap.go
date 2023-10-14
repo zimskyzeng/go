@@ -10,7 +10,7 @@ import (
 	将日志输出至文件中
  */
 
-func main() {
+func main2() {
 	config := zap.NewProductionEncoderConfig()
 	config.EncodeLevel = zapcore.CapitalLevelEncoder
 	config.EncodeTime = zapcore.ISO8601TimeEncoder

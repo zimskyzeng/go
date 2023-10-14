@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func main1(){
 	i := 10
 
 	// if语句写法格式

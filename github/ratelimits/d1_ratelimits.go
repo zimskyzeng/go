@@ -23,7 +23,7 @@ func consumer(count int64, bucket *ratelimit.Bucket) {
 	log.Println(time.Now().Format("2006-1-2 15:4:5"), "剩余", bucket.Available())
 }
 
-func main(){
+func main1(){
 	bucket := ratelimit.NewBucket(fillInterval, capacity)
 	ticker := time.NewTicker(time.Millisecond * 500)
 

@@ -9,7 +9,7 @@ import (
 	strings包中有大量对于字符串操作的工具
  */
 
-func main(){
+func main4(){
 	// 转换大小写
 	s1 := strings.ToUpper("zimsky")
 	s2 := strings.ToLower("ZIMSKY")

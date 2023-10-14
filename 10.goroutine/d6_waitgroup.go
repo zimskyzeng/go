@@ -21,7 +21,7 @@ import (
 	注意：counter不能小于零
  */
 
-func main() {
+func main6() {
 	var wg sync.WaitGroup
 	wg.Add(2)
 

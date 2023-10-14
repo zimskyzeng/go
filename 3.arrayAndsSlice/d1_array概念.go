@@ -23,7 +23,7 @@ import "fmt"
 		数组里面再嵌套一层数组
  */
 
-func main(){
+func main1(){
 	var arr1 = [4]int64{}
 	fmt.Printf("类型：%T, 值：%v, 地址：%p\n", arr1, arr1, &arr1)
 

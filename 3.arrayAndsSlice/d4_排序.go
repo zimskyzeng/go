@@ -30,7 +30,7 @@ func mySort(s []int64) []int64 {
 	}
 }
 
-func main() {
+func main4() {
 	s := make([]int64, 0, 10)
 
 	rand.Seed(time.Now().UnixNano())

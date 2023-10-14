@@ -13,7 +13,7 @@ import (
 		函数中使用，用来限定管道的读或者写操作
  */
 
-func main(){
+func main4(){
 	ch1 := make(chan int)  // 双向channel
 	go writeOnly(ch1)
 	go readOnly(ch1)

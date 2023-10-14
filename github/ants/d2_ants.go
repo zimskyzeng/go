@@ -10,7 +10,7 @@ import (
 
 
 var sum2 int32
-func main(){
+func main2(){
 	var wg sync.WaitGroup
 	pool, _ := ants.NewPool(10, ants.WithPreAlloc(true))
 	fmt.Println(time.Now().Format("15:4:5"))

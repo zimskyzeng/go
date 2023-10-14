@@ -10,7 +10,7 @@ import (
 	生成随机数
 */
 
-func main() {
+func main2() {
 	// 需要先设置种子数，而且该种子数是动态的
 	rand.Seed(time.Now().UnixNano())
 	for i := 1; i < 20; i++ {
